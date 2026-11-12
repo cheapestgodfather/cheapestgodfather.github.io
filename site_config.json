@@ -1,0 +1,92 @@
+{
+ "generated_at": "2026-11-13T00:23:02+01:00",
+ "brand": "The Cheapest Godfather",
+ "site_base_url": "https://cheapestgodfather.github.io",
+ "currency": "eur",
+ "price_regular": 29.0,
+ "price_launch": 19.0,
+ "launch_days": 7,
+ "launch_start": null,
+ "launch_end": null,
+ "sales_open": false,
+ "stripe_mode": "test",
+ "worker_base_url": "",
+ "guarantee_days": 0,
+ "lang": {
+  "fr": {
+   "state": "closed",
+   "test": null,
+   "links": {
+    "launch": "",
+    "regular": ""
+   }
+  },
+  "en": {
+   "state": "closed",
+   "test": null,
+   "links": {
+    "launch": "",
+    "regular": ""
+   }
+  }
+ },
+ "legal": {
+  "address": "",
+  "email": "",
+  "mediator": "",
+  "seller_name": "",
+  "siret": "",
+  "status": "",
+  "vat_number": "",
+  "vat_regime": ""
+ },
+ "legal_missing": [
+  "seller_name",
+  "status",
+  "address",
+  "email",
+  "siret",
+  "vat_regime",
+  "mediator"
+ ],
+ "events_retention_months": 13,
+ "ab_variants": {
+  "t1": {
+   "name": "hero_cta",
+   "A": "bouton principal = acheter le manuel",
+   "B": "bouton principal = guide gratuit",
+   "metric": "cta_buy_click + free_download / view"
+  },
+  "t2": {
+   "name": "samples",
+   "A": "sans aperçu des pages",
+   "B": "galerie de 3 pages",
+   "metric": "sample_open, scroll50, cta_buy_click"
+  },
+  "t3": {
+   "name": "guarantee",
+   "A": "sans garantie affichée",
+   "B": "garantie N jours sous le bouton (exige guarantee_days>0)",
+   "metric": "cta_buy_click, checkout_redirect (+ remboursements)"
+  },
+  "t4": {
+   "name": "deadline",
+   "A": "prix sans date",
+   "B": "prix + date/heure de fin réelle (fenêtre de lancement seulement)",
+   "metric": "cta_buy_click, checkout_redirect"
+  },
+  "t5": {
+   "name": "story_hero",
+   "A": "titre bénéfice",
+   "B": "titre échec (17 $, moitié jetée)",
+   "metric": "scroll50, cta_buy_click"
+  },
+  "t6": {
+   "name": "loss_frame",
+   "A": "titre gain",
+   "B": "titre perte (crédits jetés)",
+   "metric": "scroll50, cta_buy_click"
+  }
+ },
+ "warnings": []
+}
